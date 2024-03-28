@@ -21,7 +21,7 @@ useEffect(() => {
       <main>
         {movies.map(movie => <MovieCard 
         movie={movie} 
-        key={movie.id}
+        key={movie.id} 
         />)}
       </main>
     </>
